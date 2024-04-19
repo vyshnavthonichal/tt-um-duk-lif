@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
+  title:        "Leaky Integrate and fire neuron(LIF)"      # Project title
+  author:       "Vyshnav P Dinesh"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Single node of integrate and fire neuron (LIF)"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -52,8 +52,9 @@ pinout:
   # Analog pins - you can add more if you use them, up to 6.
   # Keep only the "ua" pins you are actually using, and *delete* any unused "ua" pins.
   # The first pins is always ua[0], and the pin numbers must be sequential.
-  ua[0]: ""
-  ua[1]: ""
+  ua[0]: "Out"
+  ua[1]: "Vth"
+  ua[2]: "Vin"
 
 # Do not change!
 yaml_version: 6
