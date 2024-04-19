@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713504277
+timestamp 1713507025
 << locali >>
 rect 22141 8637 22235 8642
 rect 22141 8558 22239 8637
@@ -187,9 +187,9 @@ rect 22480 0 22600 3666
 rect 26896 0 27016 7920
 rect 31312 0 31432 8678
 use leakylayout  leakylayout_0 ~/Desktop/tt_vyshnav/new/leaky.sch
-timestamp 1713502534
+timestamp 1713507025
 transform 1 0 22750 0 1 6922
-box -6156 -1308 3342 3488
+box -6156 -3517 3342 3488
 << labels >>
 flabel metal4 s 30974 44952 31034 45152 0 FreeSans 480 90 0 0 clk
 port 0 nsew signal input
